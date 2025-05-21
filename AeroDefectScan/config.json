@@ -1,0 +1,19 @@
+{
+  "config": {
+    "ft205": {
+      "port": "/dev/ttyUSB0",
+      "baudRate": 9600
+    },
+    "psdk": {
+      "port": "/dev/ttyAMA0",
+      "baudRate": 115200
+    },
+    "bme280": {
+      "busId": 1,
+      "address": 119
+    },
+    "logStoragePath": "/home/pi/inspections",
+    "finishCommand": "CMD:CANCEL",
+    "startCommand": "CMD:START"
+  }
+}
